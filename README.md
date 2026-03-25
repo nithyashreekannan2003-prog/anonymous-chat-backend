@@ -28,7 +28,23 @@
 - No database persistence (SQL not used)
 - Minimal styling (functionality prioritized)
 
-## How to Run Locally (Optional)
+## How to Test the Live App
+
+1. Open the frontend URL in a web browser:
+
+   https://anonymous-chat-frontend-alpha.vercel.app
+
+2. Open the same frontend URL in **a second browser tab** (or a different browser/device).
+
+3. Click **Start Chat** in both tabs.
+
+4. Status should change to **Connected**.
+
+5. Type messages in one tab → they should appear in real-time in the other tab.
+
+6. Click **Skip** to test “Partner disconnected” notification.
+
+## How to Run Locally (Optional)--optional
 1. Clone the repository
 2. Backend:
    ```bash
